@@ -73,9 +73,9 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.select.collect {|item| item.include?("BBQ")
     
    # do |holiday, item|
-      holiday if item.include?("BBQ")
+     # holiday if item.include?("BBQ")
     end
-  end.flatten
+  end
 end
     
     
